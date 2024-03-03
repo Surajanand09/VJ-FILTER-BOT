@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20389440'))
-API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457')
+API_ID = int(environ.get('API_ID', '21224265'))
+API_HASH = environ.get('API_HASH', 'f07513f20601bd795de0989bf1463270')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -48,7 +48,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://whitedevil09:mongodb78725@cluster0.9d22ro5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "vkbotsthalpathy")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
